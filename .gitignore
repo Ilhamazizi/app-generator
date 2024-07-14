@@ -1,0 +1,14 @@
+node_modules
+package.json
+package-lock.json
+
+.git
+.github
+
+*.asc
+*.crt
+*.cert
+*.pub
+*.gpg
+
+*.env
