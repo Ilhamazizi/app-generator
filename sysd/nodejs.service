@@ -1,0 +1,25 @@
+[Unit]
+Documentation=https://nodejs.org && https://expressjs.org
+Description=application generator 
+Version=18.18.2
+
+After=network.target
+Wants=network.target
+Slice=user.slice
+Slice=system.slice
+
+[Service]
+WorkingDirectory=$NODE_APP
+ExecStart=$NODE/bin/main
+User=$USER
+Group=$USER
+Type=simple
+Restart=on-failure
+Delegate=no
+GuessMainPID=no
+
+ProtectSystem=yes
+ProtectHome=yes
+
+[Install]
+WantedBy=multi-user.target
