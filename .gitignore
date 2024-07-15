@@ -19,5 +19,5 @@ package-lock.json
 
 *.env
 
-routes
-bin
+/routes
+/bin
