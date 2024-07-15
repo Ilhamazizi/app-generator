@@ -1,9 +1,16 @@
 body {
-  background-color: #E4E4E4;
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+        background-color: #E4E4E4;
+        font-family: Monospace;
 }
 
-a {
-  color: #00B7FF;
+h1 {
+        padding: 25px;
+        text-align: center;
+        font-size: 155px;;
+        margin: 200px auto;
 }
+
+h2, h3, pre {
+    text-align: center;
+}
+
