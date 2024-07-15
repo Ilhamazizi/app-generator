@@ -5,8 +5,13 @@ package-lock.json
 .git
 .github
 
+.vim
+.idea
+.vscode
+
 *.sh
 *.asc
+*.pem
 *.crt
 *.cert
 *.pub
