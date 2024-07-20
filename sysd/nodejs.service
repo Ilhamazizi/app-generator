@@ -9,8 +9,8 @@ Slice=user.slice
 Slice=system.slice
 
 [Service]
-WorkingDirectory=$NODE_APP
-ExecStart=$NODE/bin/main
+WorkingDirectory=$LOCAL_DEV/App_Generator
+ExecStart=$NODE ./bin/main
 User=$USER
 Group=$USER
 Type=simple
